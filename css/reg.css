@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body
+{
+    background: url(regp.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1
+{
+    text-align: center;
+    padding: 20px;
+    
+}
+h2
+{
+     text-align: center;
+     padding: 20px;
+}
+.register{
+    align-content: center;
+    background: #2b85b0;
+    width: 500px;
+    margin: 0px 0px 0px 430px;
+    color:black;
+    font-size: 18;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.5);
+    color: black;
+}
+#register
+{
+    margin-left: 50PX;
+}
+label{
+  color:white;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+#name
+{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    
+}
+#bg{
+     width: 80px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    color: black;
+}
+#ph
+{
+    width: 65px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    
+}
+#sub
+{
+    width: 150px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    border: none;
+    border-radius: 2px;
+    outline: 0;
+    
+}
+#res{
+    width: 150px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+ #sub[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
